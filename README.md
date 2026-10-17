@@ -15,6 +15,8 @@ AI/ML: TensorFlow, CNN based models
 
 What this site includes
 Responsive design for mobile, tablet and desktop
+
 Sections: Home, About, Experience, Skills, Projects, Education, Certifications, Contact
 Downloadable CV
-Contact form with email delivery
+
+Contact form with email delivery.
