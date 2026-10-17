@@ -6,14 +6,19 @@ Live site: https://hasnainabbas-42917.github.io/hasnain-portfolio/
 
 About
 
-I build reliable backends, mobile apps and intelligent software. My work covers:
+I build reliable backends, mobile apps and intelligent software.
+
+My work covers:
 
 Backend: Python, FastAPI, Flask, REST APIs
+
 Mobile: Flutter and Dart
+
 AI/ML: TensorFlow, CNN based models
 
 
 What this site includes
+
 Responsive design for mobile, tablet and desktop
 
 Sections: Home, About, Experience, Skills, Projects, Education, Certifications, Contact
