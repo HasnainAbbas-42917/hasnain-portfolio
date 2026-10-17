@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hasnain Abbas | Software Engineer</title>
+  <meta name="description" content="Portfolio of Hasnain Abbas, Software Engineer. Python and FastAPI backend, Flutter mobile apps and AI/ML development." />
+  <meta property="og:title" content="Hasnain Abbas | Software Engineer" />
+  <meta property="og:description" content="Python, FastAPI, Flutter and AI/ML developer. Explore my projects, skills and experience." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#04080c" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+  <symbol id="i-server" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></symbol>
+  <symbol id="i-phone-app" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></symbol>
+  <symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></symbol>
+  <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></symbol>
+  <symbol id="i-branch" viewBox="0 0 24 24"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+  <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+</svg>
+
+<div class="progress" id="progress"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- Animated background -->
+<div class="aurora" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+  <span class="grid-bg"></span>
+</div>
+
+<!-- NAVBAR -->
+<header class="nav" id="nav">
+  <a href="#home" class="brand" aria-label="Hasnain Abbas home">
+    <span class="brand-mark"><svg class="ic"><use href="#i-code"/></svg></span>
+    <span class="brand-text"><b>Hasnain Abbas</b><small>Software Engineer</small></span>
+  </a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  <nav class="links" id="links">
+    <a href="#about" class="nl">About</a>
+    <a href="#experience" class="nl">Experience</a>
+    <a href="#skills" class="nl">Skills</a>
+    <a href="#projects" class="nl">Projects</a>
+    <a href="#education" class="nl">Education</a>
+    <a href="#certifications" class="nl">Certifications</a>
+    <a href="#contact" class="btn-hire"><svg class="ic"><use href="#i-send"/></svg>Hire me</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-text">
+        <h1 class="reveal"><span class="hi">Hello, I am</span><span class="grad name">Hasnain Abbas</span></h1>
+        <h2 class="reveal">I build <span id="typed" class="typed"></span><span class="caret">|</span></h2>
+        <p class="lead reveal">Computer Science graduate and Software Engineering Intern at Full Stack Zone. I build backend APIs, mobile apps and AI-powered products that solve real problems.</p>
+        <div class="cta reveal">
+          <a href="#projects" class="btn primary"><svg class="ic"><use href="#i-layers"/></svg>View my work</a>
+          <a href="assets/Hasnain_Abbas_CV.pdf" class="btn ghost" download><svg class="ic"><use href="#i-download"/></svg>Download CV</a>
+        </div>
+        <div class="soc reveal">
+          <a href="https://github.com/HasnainAbbas-42917" target="_blank" rel="noopener"><span class="circ"><svg class="ic"><use href="#i-github"/></svg></span>View my GitHub</a>
+          <a href="https://www.linkedin.com/in/hasnain-abbas-22586b241" target="_blank" rel="noopener"><span class="circ"><svg class="ic"><use href="#i-linkedin"/></svg></span>View my LinkedIn</a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassnain6786@gmail.com&su=Hello%20Hasnain" target="_blank" rel="noopener"><span class="circ"><svg class="ic"><use href="#i-mail"/></svg></span>Send me an email</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="orbit">
+          <span class="ring r1"></span>
+          <span class="ring r2"></span>
+          <span class="spin s1"><i></i></span>
+          <span class="spin s2"><i></i></span>
+          <div class="core">
+            <svg class="ic core-ic"><use href="#i-code"/></svg>
+            <p>Software Engineer</p>
+          </div>
+          <span class="chip c1">Python</span>
+          <span class="chip c2">Flutter</span>
+          <span class="chip c3">FastAPI</span>
+          <span class="chip c4">PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Who I am</span>
+        <h2>About me</h2>
+      </div>
+      <div class="about-text reveal">
+        <p>I am a Computer Science graduate from <b>Riphah International University Islamabad, Campus Lahore</b> with hands-on experience in Python, FastAPI, Flask, REST APIs, PostgreSQL, MySQL, Flutter and AI/ML. My final year project, <b>HomeHarvest AI</b>, is a complete plant disease detection mobile app covering deep learning, a Flask backend, a Flutter frontend, Firebase authentication, a chatbot and e-commerce.</p>
+        <p>Along with software development, I have more than <b>twenty one months</b> of professional experience in data research, web intelligence, e-commerce data management and financial operations. That background gives me strong attention to detail, discipline and a business mindset. Right now I work on live client projects at <b>Full Stack Zone</b>, Rawalpindi.</p>
+      </div>
+      <div class="grid g3 about-cards">
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-server"/></svg></span>
+          <h4>Backend Development</h4>
+          <p>Clean REST APIs with FastAPI and Flask, backed by PostgreSQL and MySQL databases.</p>
+        </div>
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-phone-app"/></svg></span>
+          <h4>Mobile Applications</h4>
+          <p>Cross-platform apps built with Flutter and Dart, connected to secure backends.</p>
+        </div>
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-cpu"/></svg></span>
+          <h4>AI and Machine Learning</h4>
+          <p>CNN models trained with TensorFlow and integrated into real working products.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section alt">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">My journey</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="grid g3">
+        <article class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-code"/></svg></span>
+          <span class="date">Sep 2026 to Present</span>
+          <h4>Software Engineering Intern</h4>
+          <p class="org">Full Stack Zone Private Limited, Bahria Town, Rawalpindi</p>
+          <ul class="bul">
+            <li>Developing Python backends with FastAPI, Flask and REST API design principles.</li>
+            <li>Data modelling, schema design and query optimisation with PostgreSQL and MySQL.</li>
+            <li>Building RESTful APIs for web and mobile apps on live client projects.</li>
+            <li>Developing cross-platform mobile apps with Flutter and Dart.</li>
+          </ul>
+        </article>
+        <article class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-briefcase"/></svg></span>
+          <span class="date">May 2025 to Apr 2026</span>
+          <h4>Accountant and Cashier</h4>
+          <p class="org">Lahori Restaurants, Lahore</p>
+          <ul class="bul">
+            <li>Managed daily cash counter operations and end-of-day reconciliation records.</li>
+            <li>Maintained sales logs, expense tracking and invoice documentation.</li>
+            <li>Handled accounts payable and receivable, petty cash and daily financial summaries.</li>
+            <li>Resolved payment discrepancies with kitchen and service staff.</li>
+          </ul>
+        </article>
+        <article class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-db"/></svg></span>
+          <span class="date">Nov 2023 to Aug 2024</span>
+          <h4>Research and Data Entry Specialist</h4>
+          <p class="org">Marketing SIP Company, Lahore</p>
+          <ul class="bul">
+            <li>Data validation and quality checks for large structured datasets.</li>
+            <li>Competitive research across Amazon, eBay, Walmart, Etsy and Alibaba.</li>
+            <li>Cleaned product catalogs with thousands of SKUs for better consistency.</li>
+            <li>Produced structured reports for marketing and content campaigns.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">What I use</span>
+        <h2>Technical skills</h2>
+      </div>
+      <div class="grid g4">
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-code"/></svg></span><h4>Languages</h4><div class="tags"><span>Python</span><span>Java</span><span>C++</span><span>JavaScript</span><span>Dart</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-server"/></svg></span><h4>Backend</h4><div class="tags"><span>FastAPI</span><span>Flask</span><span>Node.js</span><span>Express.js</span><span>REST APIs</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-phone-app"/></svg></span><h4>Mobile</h4><div class="tags"><span>Flutter</span><span>Dart</span><span>Cross-Platform</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-cpu"/></svg></span><h4>AI and ML</h4><div class="tags"><span>TensorFlow</span><span>CNN</span><span>Machine Learning</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-db"/></svg></span><h4>Databases</h4><div class="tags"><span>PostgreSQL</span><span>MySQL</span><span>Normalization</span><span>CRUD</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-layout"/></svg></span><h4>Frontend</h4><div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap 5</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-layers"/></svg></span><h4>Engineering</h4><div class="tags"><span>OOP</span><span>DSA</span><span>SDLC</span><span>Agile</span><span>MVC</span><span>Design Patterns</span></div></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-branch"/></svg></span><h4>Tools</h4><div class="tags"><span>Git</span><span>GitHub</span><span>VS Code</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section alt">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">My work</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="grid g2">
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-cpu"/></svg></span><span class="badge">Final Year Project</span></div>
+          <h4>HomeHarvest AI</h4>
+          <p>AI-powered plant disease detection mobile app. A CNN trained with TensorFlow classifies leaf images, and a Flask REST API serves predictions to a Flutter app with chatbot, e-commerce, payment gateway and admin panel.</p>
+          <div class="tags"><span>Flutter</span><span>Flask</span><span>TensorFlow</span><span>CNN</span><span>MySQL</span><span>Firebase</span></div>
+          <a href="https://github.com/HasnainAbbas-42917" target="_blank" rel="noopener" class="gh"><svg class="ic"><use href="#i-github"/></svg>View on GitHub</a>
+        </article>
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-briefcase"/></svg></span></div>
+          <h4>Hospital Appointment and Management Portal</h4>
+          <p>Role-based web portal for Admin, Doctor, Receptionist and Patient, each with a dedicated dashboard. Includes appointment booking, doctor scheduling, patient records and an admin control panel.</p>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>PostgreSQL</span><span>Bootstrap 5</span></div>
+          <a href="https://github.com/HasnainAbbas-42917" target="_blank" rel="noopener" class="gh"><svg class="ic"><use href="#i-github"/></svg>View on GitHub</a>
+        </article>
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-phone-app"/></svg></span></div>
+          <h4>Digital E-Wallet and Online Transaction App</h4>
+          <p>Fully functional mobile wallet with secure wallet-to-wallet transfers, transaction history, balance management and Firebase authentication, backed by a Node.js API and MySQL.</p>
+          <div class="tags"><span>Flutter</span><span>Dart</span><span>Node.js</span><span>MySQL</span><span>Firebase</span></div>
+        </article>
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-book"/></svg></span></div>
+          <h4>Online Education System</h4>
+          <p>Full-stack web platform for course creation, student enrollment, assignment submission and progress tracking with RESTful API endpoints and a responsive frontend.</p>
+          <div class="tags"><span>Node.js</span><span>Express</span><span>JavaScript</span><span>MySQL</span></div>
+        </article>
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-layers"/></svg></span></div>
+          <h4>Inventory Management System</h4>
+          <p>Desktop application for real-time inventory tracking, stock alerts, purchase order management and reporting, built with OOP principles and the MVC design pattern.</p>
+          <div class="tags"><span>Java</span><span>JDBC</span><span>MySQL</span><span>Java Swing</span></div>
+        </article>
+        <article class="card spot tilt reveal">
+          <div class="p-top"><span class="ibox"><svg class="ic"><use href="#i-db"/></svg></span></div>
+          <h4>Pharmacy Management System</h4>
+          <p>Console-based application for medicine inventory, supplier records, sales and automated billing, using custom data structures and file handling.</p>
+          <div class="tags"><span>C++</span><span>Data Structures</span><span>File Handling</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">My learning</span>
+        <h2>Education</h2>
+      </div>
+      <div class="grid g3">
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-book"/></svg></span>
+          <span class="date">2022 to 2026</span>
+          <h4>Bachelor of Science in Computer Science</h4>
+          <p class="org">Riphah International University Islamabad, Campus Lahore</p>
+        </div>
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-book"/></svg></span>
+          <span class="date">2020 to 2022</span>
+          <h4>Intermediate in Computer Science (ICS)</h4>
+          <p class="org">Govt. Degree College Shujabad</p>
+        </div>
+        <div class="card spot reveal">
+          <span class="ibox"><svg class="ic"><use href="#i-book"/></svg></span>
+          <span class="date">2017 to 2019</span>
+          <h4>Matriculation in Science Group</h4>
+          <p class="org">Govt. High School Jahan Pur, Jalalpur Pirwala</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section alt">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">My credentials</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="grid g4">
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Coursera</span><h4>Introduction to Software Engineering</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Coursera</span><h4>Object-Oriented Programming in Java and Object-Oriented Data Structures in C++</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Coursera</span><h4>Introduction to Front-End Development</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Coursera</span><h4>Responsive Website Basics: Code with HTML, CSS and JavaScript</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Coursera</span><h4>Linux: Processes and System Resource Management for DevOps</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Cisco Networking Academy</span><h4>Introduction to TCP/IP</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Cisco Networking Academy</span><h4>Data Forwarding Across Computer Networks</h4></div>
+        <div class="card spot reveal"><span class="ibox"><svg class="ic"><use href="#i-award"/></svg></span><span class="date">Cisco Networking Academy</span><h4>Operating Systems Basics</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="label">Get in touch</span>
+        <h2>Hire me, let us work together</h2>
+        <p>Open to internships, junior backend and Flutter roles, and freelance projects. Send me a message and I will reply as soon as possible.</p>
+      </div>
+      <div class="grid g2 contact-grid">
+        <div class="card spot reveal">
+          <h4 class="ch">Contact details</h4>
+          <ul class="info">
+            <li><span class="circ"><svg class="ic"><use href="#i-mail"/></svg></span><div><small>Email</small><a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassnain6786@gmail.com" target="_blank" rel="noopener">hassnain6786@gmail.com</a></div></li>
+            <li><span class="circ"><svg class="ic"><use href="#i-phone"/></svg></span><div><small>Phone</small><a href="tel:+923265889736">+92 326-5889736</a></div></li>
+            <li><span class="circ"><svg class="ic"><use href="#i-pin"/></svg></span><div><small>Address</small><span>Rawalpindi, Islamabad and Lahore, Pakistan</span></div></li>
+          </ul>
+          <div class="soc small">
+            <a href="https://github.com/HasnainAbbas-42917" target="_blank" rel="noopener"><span class="circ"><svg class="ic"><use href="#i-github"/></svg></span>View my GitHub</a>
+            <a href="https://www.linkedin.com/in/hasnain-abbas-22586b241" target="_blank" rel="noopener"><span class="circ"><svg class="ic"><use href="#i-linkedin"/></svg></span>View my LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="card spot reveal" id="contactForm" novalidate>
+          <h4 class="ch">Send me a message</h4>
+          <div class="row2">
+            <label>Your name<input type="text" id="fName" placeholder="Enter your full name" required /></label>
+            <label>Your email<input type="email" id="fEmail" placeholder="Enter your email address" required /></label>
+          </div>
+          <div class="row2">
+            <label>Phone number (optional)<input type="tel" id="fPhone" placeholder="Enter your phone number" /></label>
+            <label>Subject<input type="text" id="fSubject" placeholder="What is this about?" required /></label>
+          </div>
+          <label>Your message<textarea id="fMsg" rows="5" placeholder="Write your message here" required></textarea></label>
+          <input type="text" id="fHoney" tabindex="-1" autocomplete="off" class="honey" aria-hidden="true" />
+          <button type="submit" class="btn primary" id="fBtn"><svg class="ic"><use href="#i-send"/></svg><span>Send message</span></button>
+          <p class="status" id="fStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark"><svg class="ic"><use href="#i-code"/></svg></span>
+          <span class="brand-text"><b>Hasnain Abbas</b><small>Software Engineer</small></span>
+        </a>
+        <p>Backend developer, Flutter mobile developer and AI/ML enthusiast building reliable, real-world software from Pakistan.</p>
+      </div>
+      <div>
+        <h5>Quick links</h5>
+        <ul class="flinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Expertise</h5>
+        <ul class="flinks plainl">
+          <li>Python and FastAPI</li>
+          <li>Flutter and Dart</li>
+          <li>REST API design</li>
+          <li>PostgreSQL and MySQL</li>
+          <li>TensorFlow and CNN</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <ul class="flinks plainl">
+          <li>hassnain6786@gmail.com</li>
+          <li>+92 326-5889736</li>
+          <li>Rawalpindi, Islamabad and Lahore</li>
+        </ul>
+        <div class="fsoc">
+          <a href="https://github.com/HasnainAbbas-42917" target="_blank" rel="noopener" aria-label="GitHub profile" title="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+          <a href="https://www.linkedin.com/in/hasnain-abbas-22586b241" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hassnain6786@gmail.com" target="_blank" rel="noopener" aria-label="Send email" title="Email"><svg class="ic"><use href="#i-mail"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>Copyright <span id="year"></span> Hasnain Abbas. All rights reserved.</p>
+      <p>Building reliable backends, mobile apps and intelligent software.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg class="ic"><use href="#i-up"/></svg></button>
+<script src="script.js"></script>
+</body>
+</html>
