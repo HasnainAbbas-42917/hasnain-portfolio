@@ -243,3 +243,32 @@ form .btn{align-self:center}
 }
 @media(hover:none){.cursor-glow{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+
+/* Mobile menu: colored tabs (framework colors) */
+@media(max-width:960px){
+  .links{
+    background:linear-gradient(160deg,#0b2a20 0%,#07160f 55%,#0a1f1a 100%);
+    border-left:1px solid rgba(32,227,162,.5);
+  }
+  .nl{
+    background:rgba(32,227,162,.10);
+    border:1px solid rgba(32,227,162,.28);
+    color:#eafff6;
+  }
+  .nl:nth-child(even){
+    background:rgba(255,193,90,.08);
+    border-color:rgba(255,193,90,.28);
+  }
+  .nl:hover,
+  .nl:active{
+    background:rgba(32,227,162,.22);
+    border-color:var(--em);
+    color:var(--em);
+  }
+  .nl.active{
+    background:linear-gradient(90deg,rgba(32,227,162,.30),rgba(255,193,90,.18));
+    border-color:var(--em);
+    color:#fff;
+  }
+  .nl::after{display:none}
+}
